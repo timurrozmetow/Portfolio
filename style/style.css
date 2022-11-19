@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'Fira code';
+    src: url(../font/FiraCode-SemiBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: white;
+    font-family: 'Fira code', sans-serif;
+
+}
+:root{
+    --primary:#C778DD;
+    --secondary:#ABB2BF;
+    --background:#282C33;
+}
+body{
+    background-color: var(--background);
+}
+/* main border left-right */
+.border{
+    padding: 0 12% 0 5%;
+}
+/* end of main border */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 20vh;
+}
+.left a{
+    font-size: 23px;
+    margin-left: 9px;
+}
+.active{
+    color: #bbb;
+}
+.right_Header{
+    margin: 0 10px;
+    color: var(--secondary);
+}
+.hash{
+    color: var(--primary);
+}
+/* Side bar fixed one */
+.sidepanel{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 8px;
+}
+.line{
+    border-left: 2px solid var(--secondary);
+    height: 180px;
+}
+/* end of the side bar */
+
+/* main */
+.main{
+    display: flex;
+    min-height: 40vh;
+    /* background-color: #C778DD; */
+}
+/* left side */
+.mLeft{
+    /* padding: 50px 0 0 0; */
+    width: 50%;
+    /* background-color: bisque; */
+}
+.mLeft h4{
+    font-size: 32px;
+    padding: 15% 0 5% 0;
+}
+.LeftText{
+    color: var(--secondary);
+    padding-bottom: 5%;
+}
+.button{
+    display: inline-block;
+    border: 1px solid var(--primary);
+    padding: 1.5% 5%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: var(--primary);
+    color: black;
+    border-radius: 25px;
+}
+.colorPurple{
+    color: var(--primary);
+}
+/* end of Left side */
+
+/* right side */
+.mRight{
+    width: 50%;
+    /* display: flex; */
+    padding: 0 0 0 15%;
+}
+.MainRight{
+    /* position: absolute; */
+}
+.BackRight{
+    position: absolute;
+}
+.BackLeft{
+    position: absolute;
+    height: 17%;
+    left: 85%;
+    top: 55vh;
+}
+.BlockPurple{
+    height: 13px;
+    width: 13px;
+    background-color: var(--primary);
+    margin-left: 6%;
+    /* padding: 0 15px; */
+}
+.BlockText{
+    display: flex;
+    align-items: center;
+    /* display: inline-block; */
+    border: 1px solid var(--secondary);
+    padding: 5% 6%;
+    /* top: 63vh; */
+}
+.BlockText p{
+    /* width: 50px; */
+    padding:0 11px;
+}
