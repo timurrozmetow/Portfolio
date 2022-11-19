@@ -63,14 +63,11 @@ header{
 .main{
     display: flex;
     min-height: 40vh;
-    /* background-color: #C778DD; */
-}
+ }
 /* left side */
 .mLeft{
-    /* padding: 50px 0 0 0; */
-    width: 50%;
-    /* background-color: bisque; */
-}
+     width: 50%;
+ }
 .mLeft h4{
     font-size: 32px;
     padding: 15% 0 5% 0;
@@ -99,11 +96,7 @@ header{
 /* right side */
 .mRight{
     width: 50%;
-    /* display: flex; */
-    padding: 0 0 0 15%;
-}
-.MainRight{
-    /* position: absolute; */
+     padding: 0 0 0 15%;
 }
 .BackRight{
     position: absolute;

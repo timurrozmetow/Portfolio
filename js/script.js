@@ -1,6 +1,6 @@
 const Prosent = 12;
 let Potratil = 0,
-    Bank = 500,
+    Bank = 600,
     dynya=42,
     grusha=39,
     n=1;
