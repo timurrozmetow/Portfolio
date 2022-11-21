@@ -63,6 +63,7 @@ header{
 .main{
     display: flex;
     min-height: 40vh;
+    padding-bottom: 5%;
  }
 /* left side */
 .mLeft{
@@ -125,4 +126,21 @@ header{
 .BlockText p{
     /* width: 50px; */
     padding:0 11px;
+}
+/* status of  */
+.mainStatus{
+    text-align: center;
+}
+.status{
+    display: inline-block;
+    padding: 1% 3%;
+    border: 1px solid white;
+    margin:  0 auto;
+}
+.status h2{
+    padding-bottom: 2%;
+}
+.status p{
+    text-align:end ;
+
 }
